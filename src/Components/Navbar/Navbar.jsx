@@ -1,7 +1,9 @@
-import React from 'react'
-import {BsCart4} from 'react-icons/bs'
-import LOGO from '../../assets/logo.png'
+import React, {useContext} from 'react'
+import LOGO from '../../assets/img/logo.png'
 import './Navbar.css'
+import { NewContext } from './../../Context';
+import Cart from './../Cart/Cart';
+
 const Navbar = () => {
   return (
     <>
@@ -13,7 +15,7 @@ const Navbar = () => {
             <div className="nav">
                 <ul className='navList'>
                     <li><a href="#">Home</a></li>
-                    <li><button className='btn'>Cart <BsCart4 /></button></li>
+                    <li><Cart /></li>
                 </ul>
             </div>
         </div>

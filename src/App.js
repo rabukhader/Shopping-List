@@ -1,11 +1,12 @@
 import React from 'react'
-import Home from './Components/Home/Home'
-import Navbar from './Components/Navbar/Navbar'
+import Home from './Pages/Home/Home'
+
 
 const App = () => {
-  return (<>
-    <Navbar/>
-    <Home />
+  return (
+    <>
+    
+      <Home />
     </>
   )
 }
