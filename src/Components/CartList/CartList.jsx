@@ -1,17 +1,17 @@
-import React, {useContext} from 'react'
-import { NewContext } from './../../Context';
+import { useCartContext } from './../../Context';
 
 const CartList = () => {
-    const {cart} = useContext(NewContext);
+    const {cart} = useCartContext();
   return (
     <>
         <div className="container cartListContainer">
             {cart.map((item,index)=>{
-                <div className="item" key={index}> 
+                return(<div className="item" key={index}> 
                   <h2>{item.name}</h2>
                   <img src={item.img} alt={item.name} />
                   <h4>price : {item.price}</h4>
-                </div>
+              </div>)
+                
             })}
         </div>
     </>

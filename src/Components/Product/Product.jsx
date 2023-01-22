@@ -1,11 +1,11 @@
 import React , { useContext, useEffect } from 'react'
 import {data} from '../../utils.js'
-import { NewContext } from './../../Context';
+import { useCartContext } from './../../Context';
 import './Product.css'
 
 const Product = () => {
 
-  const {handleAdd} = useContext(NewContext);
+  const {handleAdd} = useCartContext();
 
   return (
     <>
