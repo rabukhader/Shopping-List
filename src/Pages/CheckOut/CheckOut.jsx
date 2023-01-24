@@ -21,7 +21,7 @@ const CheckOut = () => {
 
     </form>
     <div className="home">
-      <Link className='btn btnHome' to="/home">Home</Link>
+      <Link className='btn btnHome' to="/">Home</Link>
     </div>
   </div>
   
