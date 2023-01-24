@@ -1,4 +1,4 @@
-import p1 from './assets/img/glass.jpg'
+import p1 from './assets/img/shirt.jpg'
 import p2 from './assets/img/trouser.png'
 import p3 from './assets/img/glass.jpg'
 import p4 from './assets/img/necklace.png'

@@ -1,7 +1,5 @@
-import React, {useContext} from 'react'
 import LOGO from '../../assets/img/logo.png'
 import './Navbar.css'
-import { NewContext } from './../../Context';
 import Cart from './../Cart/Cart';
 
 const Navbar = () => {

@@ -1,14 +1,40 @@
 .cartListContainer{
+    padding: 15px;
+    border-radius: 15px;
     background-color: blue;
     color: white;
-    position: relative;
+    right: 25%;
+    top: 75px;
+    position: absolute;
     height: fit-content;
-    width: 30%;
-    top: 30px;
-    right: 0;
 }
-.item{
+.one{
+    margin-bottom: 10px;
+    padding: 3px;
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(3,1fr);
-    gap: 15px;
+    gap: 10px;
+}
+.delete{
+    margin-top: 10px;
+    text-align: center;
+}
+.btndel , .btncheck{
+    color: blue;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+.btndel:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.btncheck:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
 }

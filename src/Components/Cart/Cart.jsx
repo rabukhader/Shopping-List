@@ -6,7 +6,6 @@ import CartList from './../CartList/CartList';
 const Cart = () => {
     const {cart} = useCartContext();
     const[isOpen,setIsOpen]=useState(false);
-
     const handleOpenCart = ()=>setIsOpen(prevIsOpen=>!prevIsOpen);
   return (
     <>

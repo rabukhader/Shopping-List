@@ -1,4 +1,3 @@
-import React , { useContext, useEffect } from 'react'
 import {data} from '../../utils.js'
 import { useCartContext } from './../../Context';
 import './Product.css'
